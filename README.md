@@ -5,7 +5,7 @@ AWS CLI and SAM CLI
  
  Criando um projeto Serverless com AWS CLI e SAM CLI. Realizando eventos em uma Lambda function.
  
- Sendo o SAM - Serverless Aplication Module, funciona de maneira semelhante ao serverless. 
+ Sendo o SAM - Serverless Aplication Module, funciona de maneira semelhante ao serverless.
  
  Com vantagens de 
   - testes e deploys locais 
@@ -51,6 +51,13 @@ $ sam local start-api
 Rodando funcoes diretamente:
 
 ```
-$ sam local invoke "_name_" -e events/event.json
+$ sam local invoke "__" -e events/event.json
 ```
 Utilizar o .yml para checar o nome da sua funcao
+
+
+## :wastebasket:DELETE
+
+```
+$ aws cloudformation delete-stack --stack-name __ --region __
+```
