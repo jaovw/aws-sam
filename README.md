@@ -4,4 +4,4 @@ AWS CLI and SAM CLI
  
  Criando um prohjeto Serverless com AWS CLI e SAM CLI
  
- Realizando os testes na maquina local e utilizando o Docker
+ Realizando os testes na maquina local com o Docker
